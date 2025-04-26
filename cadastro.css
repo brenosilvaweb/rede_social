@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-image: url(img/paisagem.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form{
+    box-shadow: 1px 2px 12px rgb(0, 0, 0, 0.5);
+    width: 400px;
+    padding: 50px 0;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    border-bottom: 2px solid rgb(3, 216, 6);
+    border-right: 2px solid rgb(3, 216, 6);
+}
+
+form h2{
+    margin-bottom: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form h2 img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+form input{
+    display: block;
+    margin: auto;
+    padding: 5px;
+}
+
+form button{
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 6px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer
+}
+
+form button:hover{
+    background-color: rgb(208, 255, 0);
+    color: black;
+    padding: 6px;
+    transform: scale(1.09);
+}
+
+form p{
+    text-align: center;
+    color: white;
+    margin: 0 0 20px;
+}
+
+form p a{
+    color: white;
+    margin: 7px;
+}
+
+.mensagem{
+    background-color: aliceblue;
+    width: max-content;
+    margin: auto;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    position: fixed;
+    bottom: 0;
+    background-color: aqua;
+    width: 100%;
+}
+
+#menu a{
+    display: block;
+    width: max-content;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#menu a img{
+    height: 40px;
+}
